@@ -39,5 +39,3 @@ alias exti="exit"
 
 unset GREP_OPTIONS
 
-. ~/.bashrc-lenovo
-
