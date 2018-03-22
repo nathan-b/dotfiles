@@ -1,0 +1,13 @@
+startup_message off
+caption always '%{=}%{dw}%H %= %{=}%?%-Lw%?%{B}(%{W}%n*%f %t%?(%u)%?%{B})%{w}%?%+Lw%?%?%= %{K}%{B} %{w}%D%{K}'
+vbell_msg "bell: window ~%"
+allpartial off
+autodetach on
+defscrollback 32768
+hardstatus alwaysignore
+
+#termcapinfo xterm* ti@:te@
+
+# Default screens
+screen -t "shell"
+
